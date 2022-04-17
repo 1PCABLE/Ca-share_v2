@@ -69,9 +69,9 @@ def SendView(item_id):
                 impr_id = req.json()["log_pb"]["impr_id"]
                 TotalSendedShare += 1
                 if DebugMode == True:
-                    print(Colorate.Horizontal(Colors.red_to_white, f"Sended Share: {TotalSendedShare} "))
+                    print(Colorate.Horizontal(Colors.red_to_white, f"{rien} "))
                 else:
-                    print(Colorate.Horizontal(Colors.red_to_white, f"Sended Share: {TotalSendedShare} "))
+                    print(Colorate.Horizontal(Colors.red_to_white, f"{rien}"))
                     Title(f" Ca-share: /Thread :{str(active_count()-1)} / Hit :{TotalSendedShare} / Fail :{TotalFailedReq}")
             else:
                 pass
@@ -101,7 +101,7 @@ if (__name__ == "__main__"):
 ╚████████║  ██║    █████████║  ████║  ████║  █████████╗
  ╚═════╚═╝  ╚═╝    ╚══════╚═╝  ╚═╚═╝  ╚═╚═╝  ╚═╚══════╝
                                                        
-
+(cree par 1PCABLE#6262)
 
 
 
@@ -120,7 +120,33 @@ if (__name__ == "__main__"):
 
     itemID = ClearURI(itemID)
 
+    os.system('clear')
+    os.system('cls')
+    print((Colorate.Horizontal(Colors.red_to_blue,"""
 
+
+
+
+
+ ██████╗ █████╗       ███████╗██╗  ██╗ █████╗ ██████╗ ███████╗
+██╔════╝██╔══██╗      ██╔════╝██║  ██║██╔══██╗██╔══██╗██╔════╝
+██║     ███████║█████╗███████╗███████║███████║██████╔╝█████╗  
+██║     ██╔══██║╚════╝╚════██║██╔══██║██╔══██║██╔══██╗██╔══╝  
+╚██████╗██║  ██║      ███████║██║  ██║██║  ██║██║  ██║███████╗
+ ╚═════╝╚═╝  ╚═╝      ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+          """))
+    
+     print(Colorate.Horizontal(Colors.red_to_blue, f"[Ca-Share] share loaded..."))
+
+
+
+
+
+
+
+               
+
+    
     if (int(amount) == 0):
         while True:
             Run = True
