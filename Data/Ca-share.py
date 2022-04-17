@@ -122,7 +122,7 @@ if (__name__ == "__main__"):
 
     os.system('clear')
     os.system('cls')
-    print((Colorate.Horizontal(Colors.red_to_blue,"""
+    print(Colorate.Horizontal(Colors.red_to_blue,"""
 
 
 
