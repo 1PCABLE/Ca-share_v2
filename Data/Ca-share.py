@@ -136,7 +136,7 @@ if (__name__ == "__main__"):
  ╚═════╝╚═╝  ╚═╝      ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
           """))
     
-     print(Colorate.Horizontal(Colors.red_to_blue, f"[Ca-Share] share loaded..."))
+      print(Colorate.Horizontal(Colors.red_to_blue, f"[Ca-Share] share loaded..."))
 
 
 
