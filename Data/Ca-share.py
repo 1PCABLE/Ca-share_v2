@@ -134,10 +134,11 @@ if (__name__ == "__main__"):
 ██║     ██╔══██║╚════╝╚════██║██╔══██║██╔══██║██╔══██╗██╔══╝  
 ╚██████╗██║  ██║      ███████║██║  ██║██║  ██║██║  ██║███████╗
  ╚═════╝╚═╝  ╚═╝      ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-          """))
+  
+ [Ca-share] Share Send ! Wait... (CTRL + c for stop) 
+"""))
     
-      print(Colorate.Horizontal(Colors.red_to_blue, f"[Ca-Share] share loaded..."))
-
+      
 
 
 
@@ -146,7 +147,7 @@ if (__name__ == "__main__"):
 
                
 
-    
+
     if (int(amount) == 0):
         while True:
             Run = True
